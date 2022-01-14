@@ -19,7 +19,7 @@ while(1):
         print('------')
 
     @client.command()
-    async def nyanda(ctx):
+    async def join(ctx):
         print('#join')
         global ch
         ch = ctx.channel.id
@@ -30,13 +30,13 @@ while(1):
         await vc.connect()
 
     @client.command()
-    async def nyan(ctx):
+    async def bye(ctx):
         print('#bye')
         print('#切断')
         await ctx.voice_client.disconnect()
 
     @client.command()
-    async def nya(ctx, arg1, arg2):
+    async def dic(ctx, arg1, arg2):
          with open('C:/open_jtalk/bin/dic.txt', mode='a') as f:
             f.write('\n'+ arg1 + ',' + arg2)
             print('dic.txtに書き込み：''\n'+ arg1 + ',' + arg2)
