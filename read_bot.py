@@ -68,4 +68,4 @@ while(1):
 
 
 
-    client.run("OTI0MzIyMzU3NzE4NDQyMDY0.Ycc4Rw.bN9rTGZzTlrlKGCvTSwpaWqW-O4")
+    client.run("　　　とーくん　　　　")
